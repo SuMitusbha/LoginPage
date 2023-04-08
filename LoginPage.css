@@ -1,0 +1,156 @@
+ @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Poppins:wght@400;700&display=swap");
+
+      body {
+        background-image: url(wallpaper.jpg);
+        background-size: inherit;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 90%;
+        height: 90vh;
+        overflow-y: hidden;
+      }
+
+      .container {
+        background: rgba(255, 255, 255, 0.8);
+        display: inline-block;
+        justify-content: center;
+        width: 450px;
+        height: 467px;
+        text-transform: capitalize;
+        font-family: Poppins, sans-serif;
+        margin: 188px 114px 128px 734px;
+        border-radius: 10px;
+        backdrop-filter: blur (45px);
+      }
+
+      .login {
+        justify-content: center;
+        position: relative;
+        top: 2px;
+        right: 2px;
+        left: 2px;
+        bottom: 2px;
+      }
+
+      .container .header h1 {
+        text-align: center;
+        margin: 35px 0px 33px 10px;
+      }
+
+      .container .header h2 {
+        text-align: center;
+        margin: 28px 37px 44px 36px;
+      }
+      .username {
+        position: relative;
+        right: 34px;
+        top: -49px;
+        left: 5px;
+        right: 2px;
+        margin-right: 87px;
+        margin-left: 57px;
+        margin-top: 12px;
+      }
+      .username img {
+        width: 30px;
+        height: 30px;
+      }
+
+      .container .username h4 {
+        margin: 8px 0;
+      }
+      input {
+        background-color: transparent;
+        border: 0px solid;
+        height: 20px;
+        width: 160px;
+        color: #000000;
+        position: relative;
+        margin-top: 2px;
+        top: -10px;
+      }
+
+      hr {
+        margin-top: -1px;
+      }
+
+      .password {
+        position: relative;
+        right: 34px;
+        top: -49px;
+        left: 5px;
+        right: 2px;
+        margin-right: 87px;
+        margin-left: 57px;
+        margin-top: 12px;
+      }
+      .password img {
+        width: 25px;
+        height: 25px;
+      }
+
+      .container .password h4 {
+        margin: 8px 0;
+      }
+      input {
+        background-color: transparent;
+        border: 0px solid;
+        height: 20px;
+        width: 160px;
+        color: #000000;
+        position: relative;
+        margin-top: 19px;
+        top: -10px;
+      }
+      .password .ion-icon {
+        width: 20px;
+        height: 20px;
+      }
+
+      .forgotpassword input {
+        position: relative;
+        position: relative;
+        right: 34px;
+        top: -7px;
+        left: -62px;
+        right: 46px;
+        margin-right: -123px;
+        margin-left: 60px;
+        margin-top: 8px;
+      }
+      .forgotpassword {
+        position: relative;
+        position: relative;
+        top: -5px;
+        left: -59px;
+        right: 38px;
+        margin-right: 40px;
+        margin-left: 63px;
+        margin-top: 6px;
+      }
+      .forgotpassword a {
+        text-align: left;
+        text-decoration: none;
+        color: #000;
+      }
+
+      .loginbtn {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+      }
+
+      .loginbtn button {
+        margin-top: -31px;
+        padding: 10px 142px;
+        border-radius: 40px;
+        border: 1px solid magenta;
+        text-transform: capitalize;
+        box-shadow: 1px 1px 20px 1px rgb(163, 163, 180);
+        cursor: pointer;
+        font-family: Poppins, sans-serif;
+        font-weight: bolder;
+      }
+      .loginbtn :hover {
+        background: linear-gradient(to right, #ad1deb, #6e72fc);
+      }
